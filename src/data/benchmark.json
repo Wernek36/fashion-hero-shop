@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": "tshirts-men",
+      "label": "T-shirty męskie",
+      "medianPrice": 89,
+      "offerCount": 847
+    },
+    {
+      "id": "sneakers-men",
+      "label": "Buty sportowe",
+      "medianPrice": 245,
+      "offerCount": 1203
+    },
+    {
+      "id": "hoodies",
+      "label": "Bluzy z kapturem",
+      "medianPrice": 149,
+      "offerCount": 612
+    },
+    {
+      "id": "dresses",
+      "label": "Sukienki",
+      "medianPrice": 119,
+      "offerCount": 934
+    },
+    {
+      "id": "jackets",
+      "label": "Kurtki",
+      "medianPrice": 299,
+      "offerCount": 438
+    },
+    {
+      "id": "jeans",
+      "label": "Jeansy",
+      "medianPrice": 129,
+      "offerCount": 776
+    }
+  ]
+}
