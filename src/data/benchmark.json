@@ -4,37 +4,290 @@
       "id": "tshirts-men",
       "label": "T-shirty męskie",
       "medianPrice": 89,
-      "offerCount": 847
+      "offerCount": 847,
+      "models": [
+        {
+          "id": "carhartt-pocket-tee",
+          "label": "Carhartt WIP Pocket Tee",
+          "medianPrice": 120,
+          "offerCount": 145,
+          "variants": [
+            { "id": "carhartt-pocket-white-l", "label": "Biały, rozmiar L", "medianPrice": 130, "offerCount": 22 },
+            { "id": "carhartt-pocket-black-m", "label": "Czarny, rozmiar M", "medianPrice": 125, "offerCount": 18 }
+          ]
+        },
+        {
+          "id": "nike-club-tee",
+          "label": "Nike Sportswear Club Tee",
+          "medianPrice": 75,
+          "offerCount": 285,
+          "variants": [
+            { "id": "nike-club-black-l", "label": "Czarny, rozmiar L", "medianPrice": 80, "offerCount": 38 },
+            { "id": "nike-club-grey-m", "label": "Szary melanż, rozmiar M", "medianPrice": 70, "offerCount": 32 }
+          ]
+        },
+        {
+          "id": "stussy-basic-logo",
+          "label": "Stüssy Basic Logo Tee",
+          "medianPrice": 180,
+          "offerCount": 90,
+          "variants": [
+            { "id": "stussy-white-l", "label": "Biały, rozmiar L", "medianPrice": 200, "offerCount": 14 },
+            { "id": "stussy-black-xl", "label": "Czarny, rozmiar XL", "medianPrice": 190, "offerCount": 10 }
+          ]
+        },
+        {
+          "id": "adidas-trefoil",
+          "label": "Adidas Originals Trefoil",
+          "medianPrice": 65,
+          "offerCount": 195,
+          "variants": [
+            { "id": "adidas-trefoil-white-m", "label": "Biały, rozmiar M", "medianPrice": 70, "offerCount": 28 },
+            { "id": "adidas-trefoil-black-l", "label": "Czarny, rozmiar L", "medianPrice": 65, "offerCount": 35 }
+          ]
+        }
+      ]
     },
     {
       "id": "sneakers-men",
       "label": "Buty sportowe",
       "medianPrice": 245,
-      "offerCount": 1203
+      "offerCount": 1203,
+      "models": [
+        {
+          "id": "nike-air-max-90",
+          "label": "Nike Air Max 90",
+          "medianPrice": 320,
+          "offerCount": 180,
+          "variants": [
+            { "id": "nam90-white-42", "label": "White, EU 42", "medianPrice": 380, "offerCount": 14 },
+            { "id": "nam90-black-42", "label": "Black, EU 42", "medianPrice": 360, "offerCount": 18 },
+            { "id": "nam90-triple-43", "label": "Triple Black, EU 43", "medianPrice": 290, "offerCount": 9 }
+          ]
+        },
+        {
+          "id": "adidas-stan-smith",
+          "label": "Adidas Stan Smith",
+          "medianPrice": 220,
+          "offerCount": 142,
+          "variants": [
+            { "id": "stan-white-green-42", "label": "White/Green, EU 42", "medianPrice": 230, "offerCount": 22 },
+            { "id": "stan-white-black-41", "label": "White/Black, EU 41", "medianPrice": 240, "offerCount": 11 }
+          ]
+        },
+        {
+          "id": "nb-574",
+          "label": "New Balance 574",
+          "medianPrice": 280,
+          "offerCount": 95,
+          "variants": [
+            { "id": "nb574-grey-42", "label": "Grey, EU 42", "medianPrice": 290, "offerCount": 12 },
+            { "id": "nb574-navy-43", "label": "Navy, EU 43", "medianPrice": 270, "offerCount": 8 }
+          ]
+        },
+        {
+          "id": "converse-chuck",
+          "label": "Converse Chuck Taylor All Star",
+          "medianPrice": 150,
+          "offerCount": 220,
+          "variants": [
+            { "id": "chuck-black-hi-42", "label": "Czarne, high top, EU 42", "medianPrice": 160, "offerCount": 28 },
+            { "id": "chuck-white-lo-41", "label": "Białe, low top, EU 41", "medianPrice": 140, "offerCount": 24 }
+          ]
+        }
+      ]
     },
     {
       "id": "hoodies",
       "label": "Bluzy z kapturem",
       "medianPrice": 149,
-      "offerCount": 612
+      "offerCount": 612,
+      "models": [
+        {
+          "id": "champion-reverse-weave",
+          "label": "Champion Reverse Weave",
+          "medianPrice": 220,
+          "offerCount": 110,
+          "variants": [
+            { "id": "champion-grey-l", "label": "Szara, rozmiar L", "medianPrice": 240, "offerCount": 14 },
+            { "id": "champion-black-m", "label": "Czarna, rozmiar M", "medianPrice": 220, "offerCount": 12 }
+          ]
+        },
+        {
+          "id": "nike-tech-fleece",
+          "label": "Nike Tech Fleece",
+          "medianPrice": 320,
+          "offerCount": 145,
+          "variants": [
+            { "id": "ntf-black-l", "label": "Czarna, rozmiar L", "medianPrice": 340, "offerCount": 22 },
+            { "id": "ntf-grey-xl", "label": "Szara, rozmiar XL", "medianPrice": 310, "offerCount": 16 }
+          ]
+        },
+        {
+          "id": "carhartt-hooded-chase",
+          "label": "Carhartt WIP Hooded Chase",
+          "medianPrice": 280,
+          "offerCount": 75,
+          "variants": [
+            { "id": "chase-black-m", "label": "Czarna, rozmiar M", "medianPrice": 290, "offerCount": 10 },
+            { "id": "chase-navy-l", "label": "Granatowa, rozmiar L", "medianPrice": 270, "offerCount": 8 }
+          ]
+        },
+        {
+          "id": "tnf-drew-peak",
+          "label": "The North Face Drew Peak",
+          "medianPrice": 250,
+          "offerCount": 95,
+          "variants": [
+            { "id": "drew-black-l", "label": "Czarna, rozmiar L", "medianPrice": 260, "offerCount": 14 },
+            { "id": "drew-beige-m", "label": "Beżowa, rozmiar M", "medianPrice": 240, "offerCount": 11 }
+          ]
+        }
+      ]
     },
     {
       "id": "dresses",
       "label": "Sukienki",
       "medianPrice": 119,
-      "offerCount": 934
+      "offerCount": 934,
+      "models": [
+        {
+          "id": "reserved-mini",
+          "label": "Reserved Sukienka mini",
+          "medianPrice": 65,
+          "offerCount": 245,
+          "variants": [
+            { "id": "reserved-mini-black-s", "label": "Czarna, rozmiar S", "medianPrice": 70, "offerCount": 28 },
+            { "id": "reserved-mini-white-m", "label": "Biała, rozmiar M", "medianPrice": 65, "offerCount": 32 }
+          ]
+        },
+        {
+          "id": "zara-midi",
+          "label": "Zara Sukienka midi",
+          "medianPrice": 110,
+          "offerCount": 220,
+          "variants": [
+            { "id": "zara-midi-floral-s", "label": "Kwiatowa, rozmiar S", "medianPrice": 120, "offerCount": 22 },
+            { "id": "zara-midi-black-m", "label": "Czarna, rozmiar M", "medianPrice": 105, "offerCount": 30 }
+          ]
+        },
+        {
+          "id": "hm-maxi",
+          "label": "H&M Sukienka maxi",
+          "medianPrice": 90,
+          "offerCount": 180,
+          "variants": [
+            { "id": "hm-maxi-beige-s", "label": "Beżowa, rozmiar S", "medianPrice": 95, "offerCount": 18 },
+            { "id": "hm-maxi-navy-m", "label": "Granatowa, rozmiar M", "medianPrice": 85, "offerCount": 22 }
+          ]
+        },
+        {
+          "id": "mango-cocktail",
+          "label": "Mango Sukienka koktajlowa",
+          "medianPrice": 150,
+          "offerCount": 130,
+          "variants": [
+            { "id": "mango-cocktail-red-s", "label": "Czerwona, rozmiar S", "medianPrice": 160, "offerCount": 12 },
+            { "id": "mango-cocktail-black-m", "label": "Czarna, rozmiar M", "medianPrice": 155, "offerCount": 18 }
+          ]
+        }
+      ]
     },
     {
       "id": "jackets",
       "label": "Kurtki",
       "medianPrice": 299,
-      "offerCount": 438
+      "offerCount": 438,
+      "models": [
+        {
+          "id": "tnf-nuptse",
+          "label": "The North Face Nuptse",
+          "medianPrice": 580,
+          "offerCount": 95,
+          "variants": [
+            { "id": "nuptse-black-l", "label": "Czarna, rozmiar L", "medianPrice": 600, "offerCount": 14 },
+            { "id": "nuptse-beige-m", "label": "Beżowa, rozmiar M", "medianPrice": 570, "offerCount": 10 }
+          ]
+        },
+        {
+          "id": "carhartt-detroit",
+          "label": "Carhartt Detroit Jacket",
+          "medianPrice": 420,
+          "offerCount": 75,
+          "variants": [
+            { "id": "detroit-brown-l", "label": "Brązowa, rozmiar L", "medianPrice": 440, "offerCount": 11 },
+            { "id": "detroit-black-m", "label": "Czarna, rozmiar M", "medianPrice": 410, "offerCount": 9 }
+          ]
+        },
+        {
+          "id": "levis-trucker",
+          "label": "Levi's Trucker Jacket",
+          "medianPrice": 180,
+          "offerCount": 145,
+          "variants": [
+            { "id": "trucker-classic-l", "label": "Klasyczna niebieska, rozmiar L", "medianPrice": 200, "offerCount": 22 },
+            { "id": "trucker-sherpa-m", "label": "Czarna sherpa, rozmiar M", "medianPrice": 220, "offerCount": 14 }
+          ]
+        },
+        {
+          "id": "patagonia-nano",
+          "label": "Patagonia Nano Puff",
+          "medianPrice": 480,
+          "offerCount": 65,
+          "variants": [
+            { "id": "nano-black-l", "label": "Czarna, rozmiar L", "medianPrice": 500, "offerCount": 8 },
+            { "id": "nano-navy-m", "label": "Granatowa, rozmiar M", "medianPrice": 470, "offerCount": 6 }
+          ]
+        }
+      ]
     },
     {
       "id": "jeans",
       "label": "Jeansy",
       "medianPrice": 129,
-      "offerCount": 776
+      "offerCount": 776,
+      "models": [
+        {
+          "id": "levis-501",
+          "label": "Levi's 501",
+          "medianPrice": 150,
+          "offerCount": 280,
+          "variants": [
+            { "id": "501-classic-w32-l32", "label": "Klasyczny niebieski, W32 L32", "medianPrice": 160, "offerCount": 32 },
+            { "id": "501-black-w30-l30", "label": "Czarny, W30 L30", "medianPrice": 140, "offerCount": 28 }
+          ]
+        },
+        {
+          "id": "wrangler-texas",
+          "label": "Wrangler Texas",
+          "medianPrice": 110,
+          "offerCount": 165,
+          "variants": [
+            { "id": "texas-stonewash-w32-l32", "label": "Stonewash, W32 L32", "medianPrice": 120, "offerCount": 22 },
+            { "id": "texas-dark-w34-l32", "label": "Ciemnoniebieski, W34 L32", "medianPrice": 115, "offerCount": 18 }
+          ]
+        },
+        {
+          "id": "lee-daren",
+          "label": "Lee Daren",
+          "medianPrice": 95,
+          "offerCount": 120,
+          "variants": [
+            { "id": "daren-stonewash-w32-l32", "label": "Stonewash, W32 L32", "medianPrice": 100, "offerCount": 15 },
+            { "id": "daren-black-w30-l30", "label": "Czarny, W30 L30", "medianPrice": 90, "offerCount": 12 }
+          ]
+        },
+        {
+          "id": "diesel-slim",
+          "label": "Diesel Slim",
+          "medianPrice": 220,
+          "offerCount": 95,
+          "variants": [
+            { "id": "diesel-raw-w32-l32", "label": "Niebieski raw, W32 L32", "medianPrice": 240, "offerCount": 11 },
+            { "id": "diesel-distressed-w30-l30", "label": "Distressed, W30 L30", "medianPrice": 210, "offerCount": 8 }
+          ]
+        }
+      ]
     }
   ]
 }
