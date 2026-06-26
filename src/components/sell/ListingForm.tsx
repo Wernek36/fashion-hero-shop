@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import benchmarkData from "@/data/benchmark.json";
 import { BenchmarkBar, type BenchmarkTier } from "./BenchmarkBar";
+import { track } from "@/lib/analytics";
 
 interface Variant {
   id: string;
@@ -84,15 +85,74 @@ export function ListingForm() {
     setCategoryId(value);
     setModelId("");
     setVariantId("");
+    const category = categories.find((c) => c.id === value);
+    if (category) {
+      track("sell_category_selected", {
+        category_id: category.id,
+        category_label: category.label,
+        median_price: category.medianPrice,
+        offer_count: category.offerCount,
+      });
+      // The benchmark bar first becomes visible at this step.
+      track("sell_benchmark_shown", {
+        deepest_scope: "kategoria",
+        category_id: category.id,
+        median_price: category.medianPrice,
+        offer_count: category.offerCount,
+      });
+    }
   }
 
   function handleModelChange(value: string) {
     setModelId(value);
     setVariantId("");
+    const model = selectedCategory?.models.find((m) => m.id === value);
+    if (model && selectedCategory) {
+      track("sell_model_selected", {
+        category_id: selectedCategory.id,
+        model_id: model.id,
+        model_label: model.label,
+        median_price: model.medianPrice,
+        offer_count: model.offerCount,
+      });
+    }
+  }
+
+  function handleVariantChange(value: string) {
+    setVariantId(value);
+    const variant = selectedModel?.variants.find((v) => v.id === value);
+    if (variant && selectedModel && selectedCategory) {
+      track("sell_variant_selected", {
+        category_id: selectedCategory.id,
+        model_id: selectedModel.id,
+        variant_id: variant.id,
+        variant_label: variant.label,
+        median_price: variant.medianPrice,
+        offer_count: variant.offerCount,
+      });
+    }
   }
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
+
+    // Deepest available median (variant > model > category) for the
+    // supplementary "entered price vs benchmark" signal in the Maze test.
+    const deepest = tiers[0];
+    const priceValue = parseFloat(price);
+    const hasPrice = !Number.isNaN(priceValue);
+
+    track("sell_submitted", {
+      category_id: selectedCategory?.id ?? null,
+      model_id: selectedModel?.id ?? null,
+      variant_id: selectedVariant?.id ?? null,
+      entered_price: hasPrice ? priceValue : null,
+      benchmark_scope: deepest?.scope ?? null,
+      benchmark_median: deepest?.medianPrice ?? null,
+      price_vs_median:
+        hasPrice && deepest ? priceValue - deepest.medianPrice : null,
+    });
+
     alert("Prototyp — dalej niedostępny");
   }
 
@@ -171,7 +231,7 @@ export function ListingForm() {
           required={!!selectedModel}
           disabled={!selectedModel}
           value={variantId}
-          onChange={(e) => setVariantId(e.target.value)}
+          onChange={(e) => handleVariantChange(e.target.value)}
           className={selectClasses}
         >
           <option value="" disabled>
