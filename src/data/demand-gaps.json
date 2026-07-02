@@ -1,0 +1,99 @@
+{
+  "period": "ostatnie 30 dni",
+  "source": "wyszukiwania i zakupy kupujących FashionHero",
+  "buyerBase": "2.4 mln kupujących FashionHero",
+  "categories": [
+    {
+      "id": "dresses",
+      "label": "Sukienki damskie",
+      "gaps": [
+        {
+          "attribute": "Rozmiar 42-44",
+          "searches": 3120,
+          "activeOffers": 210,
+          "demandSupplyRatio": 14.9,
+          "avgSoldPrice": 149,
+          "returnRate": 0.19,
+          "signal": "hot",
+          "note": "Najsilniejsza luka — popyt ~15× większy niż podaż"
+        },
+        {
+          "attribute": "Sukienki koktajlowe, mocne kolory (czerwień/zieleń)",
+          "searches": 2440,
+          "activeOffers": 680,
+          "demandSupplyRatio": 3.6,
+          "avgSoldPrice": 189,
+          "returnRate": 0.22,
+          "signal": "hot",
+          "note": "Rosnący trend, popyt 3.6× podaży"
+        },
+        {
+          "attribute": "Midi lniane oversize",
+          "searches": 1810,
+          "activeOffers": 540,
+          "demandSupplyRatio": 3.4,
+          "avgSoldPrice": 159,
+          "returnRate": 0.12,
+          "signal": "hot",
+          "note": "Niski return rate — bezpieczna luka"
+        },
+        {
+          "attribute": "Maxi cekinowe",
+          "searches": 420,
+          "activeOffers": 1310,
+          "demandSupplyRatio": 0.32,
+          "avgSoldPrice": 210,
+          "returnRate": 0.41,
+          "signal": "oversupplied",
+          "note": "Przesycone — więcej ofert niż popytu, wysokie zwroty"
+        }
+      ]
+    },
+    {
+      "id": "jackets",
+      "label": "Kurtki",
+      "gaps": [
+        {
+          "attribute": "Kurtki puchowe, rozmiar XL-XXL",
+          "searches": 2760,
+          "activeOffers": 190,
+          "demandSupplyRatio": 14.5,
+          "avgSoldPrice": 329,
+          "returnRate": 0.11,
+          "signal": "hot",
+          "note": "Silna luka — duże rozmiary praktycznie niedostępne"
+        },
+        {
+          "attribute": "Kurtki jeansowe vintage oversize",
+          "searches": 1980,
+          "activeOffers": 430,
+          "demandSupplyRatio": 4.6,
+          "avgSoldPrice": 179,
+          "returnRate": 0.14,
+          "signal": "hot",
+          "note": "Stały popyt, podaż nie nadąża"
+        },
+        {
+          "attribute": "Trencze beżowe, klasyczne",
+          "searches": 1340,
+          "activeOffers": 520,
+          "demandSupplyRatio": 2.6,
+          "avgSoldPrice": 259,
+          "returnRate": 0.16,
+          "signal": "hot",
+          "note": "Umiarkowana luka — bezpieczny, przewidywalny popyt"
+        },
+        {
+          "attribute": "Ramoneski ekoskóra, czarne",
+          "searches": 610,
+          "activeOffers": 1490,
+          "demandSupplyRatio": 0.41,
+          "avgSoldPrice": 199,
+          "returnRate": 0.33,
+          "signal": "oversupplied",
+          "note": "Przesycone — rynek zalany, wysokie zwroty"
+        }
+      ]
+    }
+  ]
+}
