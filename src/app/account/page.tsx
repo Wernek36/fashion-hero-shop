@@ -39,6 +39,37 @@ export default function AccountPage() {
         Welcome back to your FashionHero account.
       </p>
 
+      {/* Panel sprzedawcy */}
+      <section className="mb-10">
+        <h2 className="text-[12px] font-medium uppercase tracking-[0.8px] text-charcoal mb-4 pb-2 border-b border-black/10">
+          Panel sprzedawcy
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <Link
+            href="/insights"
+            className="group rounded-lg border border-black/10 bg-cream-light p-4 transition-colors hover:border-charcoal"
+          >
+            <p className="text-[13px] font-semibold text-charcoal">
+              Luka Podażowa →
+            </p>
+            <p className="mt-1 text-[12px] text-warm-gray">
+              Czego szukają Twoi kupujący, a czego brakuje w ofercie
+            </p>
+          </Link>
+          <Link
+            href="/sell"
+            className="group rounded-lg border border-black/10 bg-cream-light p-4 transition-colors hover:border-charcoal"
+          >
+            <p className="text-[13px] font-semibold text-charcoal">
+              Wystaw produkt →
+            </p>
+            <p className="mt-1 text-[12px] text-warm-gray">
+              Dodaj nową ofertę na FashionHero
+            </p>
+          </Link>
+        </div>
+      </section>
+
       {/* Order History */}
       <section className="mb-10">
         <h2 className="text-[12px] font-medium uppercase tracking-[0.8px] text-charcoal mb-4 pb-2 border-b border-black/10">

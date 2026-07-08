@@ -30,6 +30,13 @@ const footerSections = [
       { label: "Press", href: "#" },
     ],
   },
+  {
+    title: "DLA SPRZEDAWCÓW",
+    links: [
+      { label: "Luka Podażowa", href: "/insights" },
+      { label: "Wystaw produkt", href: "/sell" },
+    ],
+  },
 ];
 
 const socialLinks = [
